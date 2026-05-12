@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pure Effects - Rapport april 2026</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/cyntora-favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/cyntora-favicon.svg">
+  <link rel="stylesheet" href="../assets/cyntora-reports.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+  <script src="../assets/cyntora-charts.js" defer></script>
+  <script src="../assets/cyntora-reports.js" defer></script>
+</head>
+<body>
+
+<nav class="report-nav" data-section-nav>
+  <div class="report-nav__inner">
+    <div class="report-nav__group">
+      <label for="section-jump">Sektion:</label>
+      <select id="section-jump" data-section-jump>
+        <option value="">Översikt</option>
+      </select>
+    </div>
+    <div class="report-nav__group">
+      <label for="period">Period:</label>
+      <select id="period" data-period-switcher data-current="2026-04" data-index-url="index.json" disabled>
+        <option value="2026-04.html" selected>April 2026</option>
+      </select>
+    </div>
+  </div>
+</nav>
+
+
+<section class="page cover">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <h1>Pure Effects - Detaljerad statistik</h1>
+  <p class="month">April 2026</p>
+
+
+  <div class="footer">
+<div class="property">Pure Effects - GA4</div>  </div>
+</section>
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Pure Effects</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div><div class="summary-block">
+  <h2>Sammanfattning av månaden</h2>
+  <p>April 2026 var en stark manad for Pure Effects: webbplatsen tog emot 2 110 unika anvandare, en okning med +139 % jamfort med april 2025, och Google Ads genererade ett sparat konverteringsvarde pa 44 993 SEK med en ROAS pa 4,86. Organisk synlighet foljde med uppgangen - antalet visningar i Google Search okade med +66,6 % till 58 749, och den genomsnittliga positionen forbattrades fran runt 25 till 8,5. Studiokvaliteten pa besoken fordjupades ocksa: studsfrekvensen minskade fran 74 % till 49 %, vilket tyder pa att trafiken ar mer relevant i ar.</p>
+</div></section>
+
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Pure Effects</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div>  <div class="section" id="section-ga4_overview" data-section-id="ga4_overview" data-section-title="Google Analytics 4">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/ga4.svg" alt="">    <span>Google Analytics 4</span>
+  </div>
+
+
+    <div class="band">Overview</div>
+<div class="card-grid card-grid--asym"><div class="card card--icon"><img src="../assets/icons/ga4.svg" alt="GA4"></div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+<span class="value">2 110</span>        <span class="trend trend--up">139%</span>
+    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-users-1" data-cyntora='{"kind": "sparkline", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [80, 107, 95, 75, 81, 94, 86, 66, 96, 64, 50, 99, 91, 79, 64, 89, 73, 69, 88, 83, 58, 75, 76, 67, 58, 156, 149, 81, 84, 90]}, {"color": "#b9d2cf", "label": "April 2025", "values": [35, 29, 22, 59, 43, 36, 39, 39, 42, 38, 42, 33, 31, 37, 35, 32, 33, 22, 36, 36, 49, 33, 38, 29, 19, 30, 61, 35, 40, 30]}]}'></canvas>
+  </div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/ga4.svg" alt="">      Bounce Rate
+    </div>
+      <span class="trend trend--down">34%</span>
+  </div>
+    <div class="card__value card__value--big">48.56%</div>
+</div></div>
+<div class="card-grid"><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+    </span>
+  </div>
+
+  <div class="donut-row">
+    <div class="chart-wrap chart-wrap--short" style="position: relative;">
+      <canvas id="ga4-donut-2" data-cyntora='{"colors": ["#4285F4", "#34A853", "#FBBC04", "#EA4335", "#AB47BC", "#00ACC1", "#FF7043", "#9E9E9E", "#7E57C2", "#26A69A"], "kind": "donut", "labels": ["Organic Search", "Cross-network", "Email", "Direct", "Paid Search", "Paid Social", "Unassigned", "Organic Social"], "values": [480.0, 408.0, 367.0, 333.0, 224.0, 189.0, 77.0, 62.0]}'></canvas>
+      <div style="
+        position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%); text-align: center;">
+        <div style="font-size: 18px; font-weight: 700;">2 110</div>
+<div style="font-size: 10px; color: #9a9a9a;">Total Users</div>      </div>
+    </div>
+    <div class="legend">
+      <div class="row">
+        <span class="swatch" style="background: #4285F4;"></span>
+        <span class="name">Organic Search</span>
+        <span class="value">480</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #34A853;"></span>
+        <span class="name">Cross-network</span>
+        <span class="value">408</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FBBC04;"></span>
+        <span class="name">Email</span>
+        <span class="value">367</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #EA4335;"></span>
+        <span class="name">Direct</span>
+        <span class="value">333</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #AB47BC;"></span>
+        <span class="name">Paid Search</span>
+        <span class="value">224</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #00ACC1;"></span>
+        <span class="name">Paid Social</span>
+        <span class="value">189</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FF7043;"></span>
+        <span class="name">Unassigned</span>
+        <span class="value">77</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #9E9E9E;"></span>
+        <span class="name">Organic Social</span>
+        <span class="value">62</span>
+      </div>
+    </div>
+  </div>
+</div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Average Engagement Time Per Session</span>
+    <span class="right">
+<span class="value">00:03:18</span>    </span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="ga4-eng-3" data-cyntora='{"format": "duration", "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [108.9, 218.4, 121.3, 150.8, 140.4, 148.0, 236.3, 342.1, 545.2, 481.5, 73.5, 206.6, 497.9, 159.9, 95.2, 206.2, 132.6, 101.3, 246.4, 118.4, 225.2, 209.5, 124.3, 187.5, 132.1, 137.0, 128.9, 142.7, 188.5, 219.0]}, {"color": "#b9d2cf", "label": "April 2025", "values": [143.2, 95.5, 105.6, 186.6, 213.3, 214.1, 113.4, 112.5, 116.0, 131.2, 48.2, 86.9, 304.5, 304.3, 321.5, 513.7, 123.0, 136.2, 63.2, 68.8, 197.2, 107.0, 234.0, 491.3, 208.7, 142.3, 229.4, 174.1, 115.7, 144.4]}]}'></canvas>
+  </div>
+</div></div>
+<div class="card card--note"><div class="card__head"><span class="label"><img src="../assets/icons/ga4.svg" alt="GA4">Conversions</span></div><div class="card__value card__value--big">128</div><div class="card__note">Konverteringsmål per kanal kräver en separat GA4-fråga - vi lägger till den i nästa rapport.</div></div>
+<div class="band">Pages</div>
+<div class="data-table-wrap">
+<div class="head">Visar 10 av 24 sidor</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>SIDA</th>
+<th>SESSIONS</th><th>TOTAL USERS</th><th>USER ENGAGEMENT</th><th>VIEWS</th><th>EVENT COUNT</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>/sv-se</td>
+          <td>
+            432
+          </td>
+          <td>
+            356
+          </td>
+          <td>
+            10:47:11
+          </td>
+          <td>
+            1 549
+          </td>
+          <td>
+            4 660
+          </td>
+      </tr>
+      <tr>
+        <td>/</td>
+          <td>
+            355
+          </td>
+          <td>
+            276
+          </td>
+          <td>
+            06:08:11
+          </td>
+          <td>
+            976
+          </td>
+          <td>
+            2 899
+          </td>
+      </tr>
+      <tr>
+        <td>/sv-se/products/textile-spray-odor-remover</td>
+          <td>
+            246
+          </td>
+          <td>
+            194
+          </td>
+          <td>
+            02:48:22
+          </td>
+          <td>
+            478
+          </td>
+          <td>
+            1 636
+          </td>
+      </tr>
+      <tr>
+        <td>/products/textile-spray-odor-remover</td>
+          <td>
+            173
+          </td>
+          <td>
+            139
+          </td>
+          <td>
+            01:57:27
+          </td>
+          <td>
+            355
+          </td>
+          <td>
+            1 136
+          </td>
+      </tr>
+      <tr>
+        <td>/sv-se/blogs/nyheter/gula-flackar-under-armarna-varfor-de-uppstar-och-hur-du-undviker-dem</td>
+          <td>
+            168
+          </td>
+          <td>
+            143
+          </td>
+          <td>
+            01:54:55
+          </td>
+          <td>
+            230
+          </td>
+          <td>
+            642
+          </td>
+      </tr>
+      <tr>
+        <td>/en</td>
+          <td>
+            69
+          </td>
+          <td>
+            66
+          </td>
+          <td>
+            01:32:18
+          </td>
+          <td>
+            244
+          </td>
+          <td>
+            760
+          </td>
+      </tr>
+      <tr>
+        <td>/blogs/nyheter/sneakerguide</td>
+          <td>
+            67
+          </td>
+          <td>
+            56
+          </td>
+          <td>
+            00:58:17
+          </td>
+          <td>
+            85
+          </td>
+          <td>
+            234
+          </td>
+      </tr>
+      <tr>
+        <td>/sv-se/blogs/nyheter/ta-hand-om-mocka</td>
+          <td>
+            51
+          </td>
+          <td>
+            47
+          </td>
+          <td>
+            00:46:35
+          </td>
+          <td>
+            65
+          </td>
+          <td>
+            207
+          </td>
+      </tr>
+      <tr>
+        <td>/products/textile-spray-odor-remover-500ml</td>
+          <td>
+            44
+          </td>
+          <td>
+            39
+          </td>
+          <td>
+            00:27:37
+          </td>
+          <td>
+            121
+          </td>
+          <td>
+            382
+          </td>
+      </tr>
+      <tr>
+        <td>/blogs/sa-fungerar-det/vad-finns-det-for-metoder-att-ta-bort-lukt-och-vad-skiljer-dem-at</td>
+          <td>
+            42
+          </td>
+          <td>
+            34
+          </td>
+          <td>
+            00:52:13
+          </td>
+          <td>
+            71
+          </td>
+          <td>
+            213
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+<div class="takeaway">Trafiken mer an fordubblade sig jämfort med april 2025 (+139 % anvandare) och kvaliteten forbattrades markant: studsfrekvensen halverades och konverteringarna okade med 68 %.</div>
+</div>
+</section>
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Pure Effects</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div>  <div class="section" id="section-gsc" data-section-id="gsc" data-section-title="Google Search Console">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/gsc.svg" alt="">    <span>Google Search Console</span>
+  </div>
+
+
+    <div class="band">Organic traffic</div>
+<div class="card-grid card-grid--asym"><div class="card card--icon"><img src="../assets/icons/gsc.svg" alt="Search Console"></div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/gsc.svg" alt="">      Avg Position
+    </div>
+      <span class="trend trend--down">66%</span>
+  </div>
+    <div class="card__value card__value--big">8.5</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/gsc.svg" alt="">      Clicks
+    </div>
+      <span class="trend trend--up">9%</span>
+  </div>
+    <div class="card__value card__value--big">698</div>
+</div></div>
+<div class="chart-card">
+  <div class="chart-card__head">
+    <span>Impressions</span>
+    <span class="right">
+<span class="value">58 749</span>        <span class="trend trend--up">67%</span>
+    </span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="gsc-imp-4" data-cyntora='{"kind": "line", "labels": ["04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "04-18", "04-19", "04-20", "04-21", "04-22", "04-23", "04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30"], "legend": true, "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [1867, 1871, 1925, 1755, 1971, 2226, 2145, 2092, 2022, 1917, 1943, 2119, 2044, 2194, 2109, 1938, 1878, 1942, 2259, 2141, 1644, 1578, 1678, 1695, 1694, 1907, 2103, 2406, 2095, 1591]}, {"color": "#b9d2cf", "label": "April 2025", "values": [1355, 1161, 1128, 1152, 1265, 1274, 1255, 1274, 1201, 1136, 1102, 1139, 1268, 1147, 1048, 990, 991, 1024, 1224, 1269, 1301, 1425, 1432, 1240, 1092, 1338, 1434, 1437, 1165]}]}'></canvas>
+  </div>
+</div>
+
+<div class="band">Keywords</div>
+<div class="data-table-wrap">
+<div class="head">Showing 10 of 40 Rows</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>KEYWORD</th>
+<th>CLICKS</th><th>IMPRESSIONS</th><th>AVG POSITION</th><th>CTR</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>pure effect</td>
+          <td>
+            70
+          </td>
+          <td>
+            497
+          </td>
+          <td>
+            2.79
+          </td>
+          <td>
+            14.09%
+          </td>
+      </tr>
+      <tr>
+        <td>bacillus subtilis</td>
+          <td>
+            3
+          </td>
+          <td>
+            316
+          </td>
+          <td>
+            10.39
+          </td>
+          <td>
+            0.95%
+          </td>
+      </tr>
+      <tr>
+        <td>kemtvätt</td>
+          <td>
+            1
+          </td>
+          <td>
+            281
+          </td>
+          <td>
+            7.62
+          </td>
+          <td>
+            0.36%
+          </td>
+      </tr>
+      <tr>
+        <td>vad är kemtvätt</td>
+          <td>
+            3
+          </td>
+          <td>
+            277
+          </td>
+          <td>
+            3.73
+          </td>
+          <td>
+            1.08%
+          </td>
+      </tr>
+      <tr>
+        <td>mocka rengöring</td>
+          <td>
+            1
+          </td>
+          <td>
+            187
+          </td>
+          <td>
+            11.11
+          </td>
+          <td>
+            0.53%
+          </td>
+      </tr>
+      <tr>
+        <td>vad är mikroorganismer</td>
+          <td>
+            1
+          </td>
+          <td>
+            181
+          </td>
+          <td>
+            4.01
+          </td>
+          <td>
+            0.55%
+          </td>
+      </tr>
+      <tr>
+        <td>kan man torktumla jeans</td>
+          <td>
+            1
+          </td>
+          <td>
+            177
+          </td>
+          <td>
+            3.20
+          </td>
+          <td>
+            0.56%
+          </td>
+      </tr>
+      <tr>
+        <td>floor cleaner</td>
+          <td>
+            1
+          </td>
+          <td>
+            166
+          </td>
+          <td>
+            15.27
+          </td>
+          <td>
+            0.60%
+          </td>
+      </tr>
+      <tr>
+        <td>krymper jeans i tvätten</td>
+          <td>
+            1
+          </td>
+          <td>
+            127
+          </td>
+          <td>
+            4.56
+          </td>
+          <td>
+            0.79%
+          </td>
+      </tr>
+      <tr>
+        <td>pure effect textile spray</td>
+          <td>
+            18
+          </td>
+          <td>
+            103
+          </td>
+          <td>
+            1.18
+          </td>
+          <td>
+            17.48%
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div class="takeaway">Synligheten i Google steg markant - 58 749 visningar (+67 % YoY) och medelposition 8,5 mot runt 25 for ett ar sedan, men CTR pa 1,2 % visar att det finns utrymme att dra fler klick ur den okade synligheten.</div>
+</div>
+</section>
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Pure Effects</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div>  <div class="section" id="section-google_ads" data-section-id="google_ads" data-section-title="Google Ads">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/google-ads.svg" alt="">    <span>Google Ads</span>
+  </div>
+
+
+    <div class="band">SEM</div><div class="source-attr">Spårat konverteringsvärde rapporteras av Google Ads och kan överlappa med faktiska intäkter i WooCommerce/Shopify-sektionen. Använd Konverteringar och Kostnad som primära indikatorer.</div>
+<div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+  </div>
+    <div class="card__value card__value--big">126</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Spårat konv.värde
+    </div>
+  </div>
+    <div class="card__value card__value--big">kr44.99 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Spårad ROAS
+    </div>
+  </div>
+    <div class="card__value card__value--big">4.86</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+      <span class="trend trend--up">207653%</span>
+  </div>
+    <div class="card__value card__value--big">kr9.27 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+      <span class="trend trend--up">141395%</span>
+  </div>
+    <div class="card__value card__value--big">59 428</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+      <span class="trend trend--up">102100%</span>
+  </div>
+    <div class="card__value card__value--big">1 022</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+      <span class="trend trend--down">28%</span>
+  </div>
+    <div class="card__value card__value--big">1.72%</div>
+</div></div>
+<div class="chart-card">
+  <div class="chart-card__head">
+    <span>Kostnad vs spårat konv.värde</span>
+    <span class="right">
+    </span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="ads-spend-5" data-cyntora='{"currency": "SEK", "dual_axis": true, "format": "currency", "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "currency": "SEK", "format": "currency", "label": "Kostnad", "values": [284.7, 401.39, 145.88, 444.57, 276.97, 334.4, 338.61, 211.84, 427.17, 207.18, 165.09, 234.04, 237.73, 146.89, 317.96, 257.37, 295.6, 338.5, 394.28, 267.4, 330.03, 557.81, 496.46, 690.74, 485.53, 460.25, 125.27, 74.46, 219.66, 98.01]}, {"color": "#b9d2cf", "currency": "SEK", "format": "currency", "label": "Sp\u00e5rat konv.v\u00e4rde", "values": [3072.0, 265.5, 590.0, 1360.2, 531.0, 1180.0, 2300.0, 850.5, 1215.5, 607.5, 295.0, 7263.0, 1467.85, 265.5, 475.0, 1820.5, 5204.0, 1983.5, 1271.5, 0.0, 1496.5, 1976.5, 413.0, 1325.5, 545.0, 2287.0, 1695.0, 1635.5, 715.5, 885.0]}]}'></canvas>
+  </div>
+</div>
+<div class="band">Top Campaigns</div>
+<div class="data-table-wrap">
+<div class="head">Showing 1 of 1 Rows</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>KAMPANJ</th>
+<th>KOSTNAD</th><th>KONVERTERINGAR</th><th>SPÅRAT KONV.VÄRDE</th><th>ROAS</th><th>EXPONERINGAR</th><th>KLICK</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>(okänd kampanj)</td>
+          <td>
+            kr9.27 K
+          </td>
+          <td>
+            126
+          </td>
+          <td>
+            kr44.99 K
+          </td>
+          <td>
+            4,86
+          </td>
+          <td>
+            59 428
+          </td>
+          <td>
+            1 022
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div class="takeaway">ROAS 4,86 och 125,5 konverteringar till en kostnad av 9 266 SEK visar att annonserna presterar val. YoY-siffrorna ar inte jamförbara eftersom kampanjerna var inaktiva i april 2025.</div>
+</div>
+</section>
+
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Pure Effects</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div><div class="next-steps">
+  <h2>Vad vi gör härnäst</h2>
+  <ul>
+      <li>Vi kommer att analysera de landningssidor som genererar flest sessioner - /sv-se, /, /sv-se/products/textile-spray-odor-remover - och identifiera forbattringspunkter for konverteringsgraden.</li>
+      <li>Vi kommer att granska sökordslistan i GSC och optimera metabeskrivningar och rubriker pa de sidor som har hog visningstakt men lag klickfrekvens, exempelvis sidor kring 'bacillus subtilis' och 'kemtvatt'.</li>
+      <li>Vi kommer att foljaupp PMAX-kampanjens produktflod och kontrollera att alla produkter ar godkanda och korrekta infor maj.</li>
+      <li>Vi kommer att se over CTR-trenden for Google Ads (1,7 % mot foregeende manad) och justera annonstexter dar klickfrekvensen ar under genomsnittet.</li>
+  </ul>
+</div>
+
+</section>
+
+
+</body>
+</html>
